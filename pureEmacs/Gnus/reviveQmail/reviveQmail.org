@@ -1,0 +1,1 @@
+Allow for qmail-inject to be triggered by Gnus.
