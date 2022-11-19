@@ -1,6 +1,6 @@
 Please Allow for qmail-inject to be triggered by Gnus through X-Message-SMTP-Method.
 
-This applies to emacs 29 and earlier.
+This would apply to emacs 29 and later.
 
 Please add the below two qmail lines to
 message-multi-smtp-send-mail function in gnus/message.el

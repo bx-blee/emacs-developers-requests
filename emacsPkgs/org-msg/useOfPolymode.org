@@ -1,0 +1,7 @@
+* Org-Msg --- Jérémy Compostella
+
+** By Using polymode, lots of code can be reduced
+
+** body part attachments don't belong in org drawers
+
+** Should complete cited messages be separate body-parts?

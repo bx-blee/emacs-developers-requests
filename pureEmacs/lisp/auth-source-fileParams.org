@@ -1,0 +1,7 @@
+Refering to EmacsConf-2022 slides.
+
+(3) is simply a design suggestion for which I prepared the context. .authinfo
+  Emacs auth-source library are too emacs centric. We need to share config info
+  and secrets between common-agents and Emacs. The File Parameters approach can
+  be a general purpose solution. Is it reasonable to extend auth-source to
+  support File Params?

@@ -1,0 +1,15 @@
+Please consider renaming X-Message-SMTP-Method to X-Message-Send-Method.
+
+This would apply to emacs 29 and later.
+
+Backwards compatibility is simple. Both would be valid for a while.
+
+This is a terminology suggestion. The term X-Message-SMTP-Method violates
+  conceptual layering. Please consider changing it to X-Message-Send-Method. In
+  a Split-MUA setup, Gnus need not even know about SMTP at all. We just need to
+  pass information to a Mail-Sending-Agent selector.
+
+Furthermore through the X822-Bus, the Mail-Sending-Agent can even receive additional
+parameters that Gnus need not even know about.
+
+Thank you.
